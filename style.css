@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(245, 242, 242);
 }
 
 header{
@@ -11,18 +12,18 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    border-bottom: 2px solid rgba(8, 109, 233, 0.248);
     padding-top: 1rem;
 }
 
 header > h1{
     margin-right: 15rem;
-    border: 2px solid red;
 }
 
 header > img{
     width: 2vw;
     height: 4vh;
+    margin-right: 4px;
 }
 
 header > nav{
@@ -33,6 +34,55 @@ header > nav{
 header > nav > a{
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 23px;
     margin-right: 3rem;
 }
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.section-apresentacao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8% 0 0 50%;
+    font-size: 2rem;
+}
+
+.article-button > a > button{
+    font-size: 20px;
+    border-radius: 25px;
+    background: #87CEEB;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: black 0.3s ease;
+}
+
+.aside-imagem > img{
+    width: 35vw;
+    height: auto;
+}
+
+footer {
+    margin-left: 24%;
+}
+
+.redes-sociais-lista {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociais-lista li {
+    margin: 0px 10px;
+}
+
+.redes-sociais {
+    width: 70px;
+    height: auto;
+}
+
