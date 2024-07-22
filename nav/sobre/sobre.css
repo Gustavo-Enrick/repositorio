@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 242, 242);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(8, 109, 233);
+    background-color: rgba(8, 109, 233, 0.653);
+    padding-top: 1rem;
+}
+
+header *{
+    background-color: rgba(0,0,0,0);
+}
+
+header > h1{
+    margin-right: 15rem;
+}
+
+header > img{
+    width: 2vw;
+    height: 4vh;
+    margin-right: 4px;
+}
+
+header > nav{
+    display: flex;
+    align-items: center;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin-right: 3rem;
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-left: 24%;
+}
+
+footer > p {
+    font-size: 20px;
+}
+
+.redes-sociais-lista {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociais-lista li {
+    margin: 0px 10px;
+}
+
+#rede-sociail-linkedin {
+    width: 70px;
+    height: auto;
+}
+
+#rede-sociail-github {
+    width: 50px;
+    height: auto;
+    padding-top: 25%;
+    background-color: rgba(0,0,0,0);
+}

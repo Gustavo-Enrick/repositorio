@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="sobre.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <p><b>Hard Skills:</b></p>
-                <ul class="ul-hardskills">
+    <!--Links de Navegação-->
+    <header>
+        <img src="../../img/code-1970468_1280.png" alt="barra entre os sinais de maior e menor">
+        <h1><i>Portfólio</i></h1>
+        <nav>
+            <a href="./sobre.html">Sobre</a>
+            <a href="../projetos/projetos.html">Projetos</a>
+            <a href="../../img/Currículo.pdf" download="Currículo Gustavo">Currículo</a>
+        </nav>
+    </header>
+    
+    <!--Conteúdo principal-->
+    <main>
+        <aside>
+            <img src="#" alt="Minha foto">
+        </aside>
+
+        <section>
+            <h2>Quem eu sou ?</h2>
+
+            <p>Sou uma pessoa apaixonada por tecnologia,sempre buscando se aperfeiçoar. Para isso dedico meu tempo e esforço em estudos na área e na criação de projetos. Meu ponto forte está no back-end onde utilizo tecnologias como Java,Spring,Python e PostgreSQL,mas estou me aperfeiçoando no front-end também.</p>
+
+            <section class="skills">
+                <p><b>Hard Skills:</b></p>
+                <ul id="ul-hardskills">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -21,7 +45,7 @@
                     <li>Pacote Office</li>
                 </ul>
                 <p><b>Soft Skills:</b></p>
-                <ul class="ul-softskills">
+                <ul id="ul-softskills">
                     <li>Comprometimento</li>
                     <li>Trabalho em equipe</li>
                     <li>Orientado a resultados</li>
@@ -31,5 +55,22 @@
                     <li>Adaptável</li>
                     <li>Aprendizagem contínua</li>
                 </ul>
+            </section>
+        </section>
+    </main>
+
+    <!--Redes Sociais-->
+    <footer>
+        <p>Redes Sociais:</p>
+        <ul class="redes-sociais-lista">
+            <li>
+                <a href="https://www.linkedin.com/in/gustavo-enrick-lopes-de-sousa/" target="_blank"><img src="../../img/linkedin-3000959_1280.png" alt="Linkedin logo" id="rede-sociail-linkedin"></a>
+            </li>
+
+            <li>
+                <a href="https://github.com/Gustavo-Enrick?tab=repositories" target="_blank"><img src="../../img/logo-2582757_1280.png" alt="GitHub logo" id="rede-sociail-github"></a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
