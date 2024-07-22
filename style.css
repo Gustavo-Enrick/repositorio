@@ -12,8 +12,13 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid rgba(8, 109, 233, 0.248);
+    border-bottom: 2px solid rgb(8, 109, 233);
+    background-color: rgba(8, 109, 233, 0.653);
     padding-top: 1rem;
+}
+
+header *{
+    background-color: rgba(0,0,0,0);
 }
 
 header > h1{
@@ -100,5 +105,5 @@ footer > p {
     width: 50px;
     height: auto;
     padding-top: 25%;
+    background-color: rgba(0,0,0,0);
 }
-
